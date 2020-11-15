@@ -94,6 +94,7 @@ class _ListViewComidaState extends State<ListViewComida> {
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),
           onPressed: () => _createNewComida(context),
+          backgroundColor: Colors.pink,
         ),
       ),
     );
